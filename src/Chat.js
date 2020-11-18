@@ -55,6 +55,11 @@ function Chat() {
             {messages.map(message => (
                 <Message message={message.message} timestamp={message.timestamp} user={message.user} />
             ))}
+
+
+
+
+
         </div>
         <div className="chat__input">
             <AddCircleIcon fontSize='large' />

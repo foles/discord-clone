@@ -17,6 +17,11 @@
 
 .sidebar__channels {
     flex: 1;
+    overflow: scroll;
+}
+
+.sidebar__channels::-webkit-scrollbar {
+    display: none;
 }
 
 .sidebar__addChannel {
@@ -70,6 +75,7 @@
 
 .sidebar__voiceIcons>.MuiSvgIcon-root {
     padding: 10px;
+    cursor: pointer;
 }
 
 .sidebar__profileInfo {
@@ -83,4 +89,5 @@
 
 .sidebar__profileIcons>.MuiSvgIcon-root {
     padding: 10px;
+    cursor: pointer;
 }
